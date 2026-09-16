@@ -1,0 +1,45 @@
+{
+  "account": "example",
+  "repos": [
+    {
+      "name": "example-agent-sop",
+      "visibility": "public",
+      "publish": true,
+      "status": "active",
+      "sharedCi": true,
+      "codexSync": {
+        "enabled": false,
+        "exclude": []
+      },
+      "delta": "",
+      "note": "The SOP instance this organization follows; the org repository pins it in org.json."
+    },
+    {
+      "name": "example-app",
+      "visibility": "public",
+      "publish": true,
+      "status": "active",
+      "sharedCi": false,
+      "delta": "Coverage floor 80% lines; release notes generated from conventional commits.",
+      "note": "A consumer with one recorded variance from the shared baseline."
+    },
+    {
+      "name": "example-internal",
+      "visibility": "private",
+      "publish": false,
+      "status": "onboarding",
+      "sharedCi": false,
+      "delta": "",
+      "note": "Aligning to the baselines; flips to active once it conforms."
+    },
+    {
+      "name": "example-legacy",
+      "visibility": "private",
+      "publish": false,
+      "status": "retired",
+      "sharedCi": false,
+      "delta": "",
+      "note": "Offboarded. The row stays as the record that it was once governed."
+    }
+  ]
+}

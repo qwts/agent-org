@@ -1,0 +1,23 @@
+{
+  "account": "example",
+  "agents": [
+    {
+      "slug": "example-claude-agent",
+      "harness": "claude-code",
+      "status": "active",
+      "note": "The harness-level identity for Claude Code; the default App for that harness."
+    },
+    {
+      "slug": "example-codex-agent",
+      "harness": "codex",
+      "status": "active",
+      "note": "The harness-level identity for Codex."
+    },
+    {
+      "slug": "example-claude-opus-agent",
+      "harness": "claude-code",
+      "status": "retired",
+      "note": "A model-pinned identity retired with the move to harness-level identity. The row stays so credentials reconcile."
+    }
+  ]
+}

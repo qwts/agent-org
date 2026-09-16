@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "organization": "example",
+  "account_owner": "example",
+  "minimum_runtime_interface_version": 1,
+  "defaults": {
+    "claude": "example-claude-agent",
+    "codex": "example-codex-agent"
+  },
+  "identities": [
+    {
+      "slug": "example-claude-agent",
+      "harness": "claude",
+      "status": "active"
+    },
+    {
+      "slug": "example-claude-opus-agent",
+      "harness": "claude",
+      "status": "retired"
+    },
+    {
+      "slug": "example-codex-agent",
+      "harness": "codex",
+      "status": "active"
+    }
+  ]
+}
